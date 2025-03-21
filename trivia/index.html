@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <h3>What is the capital of France?</h3>
+            <button class="answer" onclick="checkMultipleChoice(this, false)">Berlin</button>
+            <button class="answer" onclick="checkMultipleChoice(this, false)">Madrid</button>
+            <button class="answer" onclick="checkMultipleChoice(this, true)">Paris</button>
+            <p id="multiple-feedback" class="feedback"></p>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>Who wrote *Hamlet*?</h3>
+            <input id="free-response" type="text" placeholder="Your answer here">
+            <button onclick="checkFreeResponse()">Submit</button>
+            <p id="free-feedback" class="feedback"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

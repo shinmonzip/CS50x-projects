@@ -1,0 +1,24 @@
+HTML Tags:
+1. <html> - Define the HTML document.
+2. <head> - Contains metadata and links to resources.
+3. <body> - Holds the content of the page.
+4. <header> - Used for the page header.
+5. <nav> - Defines navigation links.
+6. <ul>, <li> - Used for the navigation menu.
+7. <footer> - Contains footer content.
+8. <section> - Defines sections of the page.
+9. <h1>, <h2> - For headings.
+10. <p> - For paragraphs.
+
+CSS Properties:
+1. background-color - Sets the background color.
+2. color - Changes the text color.
+3. margin - Adds space outside elements.
+4. padding - Adds space inside elements.
+5. border-radius - Makes elements rounded.
+
+JavaScript:
+- Added a button dynamically using `JavaScript` with an alert for interactivity.
+
+Bootstrap:
+- Integrated navbar, buttons, and responsive layout using Bootstrap.
